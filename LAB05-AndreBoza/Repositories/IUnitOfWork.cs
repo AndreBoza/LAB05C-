@@ -1,15 +1,13 @@
-using LAB05_AndreBoza.Entidades;
-using System;
 using System.Threading.Tasks;
-using LAB05_AndreBoza.Models;
 
 namespace LAB05_AndreBoza.Repositorios
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork
     {
-        IGenericRepository<Categoria> Categorias { get; }
-        // Puedes agregar aquí más repositorios, por ejemplo:
-        // IGenericRepository<Curso> Cursos { get; }
-        Task<int> SaveAsync();
+        // Devuelve un repositorio genérico para cualquier entidad
+        IGenericRepository<TEntity> Repository<TEntity>() where TEntity : class;
+
+        // Guarda los cambios en la base de datos
+        Task<int> Complete();
     }
 }

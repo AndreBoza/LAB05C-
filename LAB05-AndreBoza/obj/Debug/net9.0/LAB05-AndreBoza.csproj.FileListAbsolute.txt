@@ -167,3 +167,4 @@ C:\Users\andre\RiderProjects\LAB05-AndreBoza\LAB05-AndreBoza\obj\Debug\net9.0\re
 C:\Users\andre\RiderProjects\LAB05-AndreBoza\LAB05-AndreBoza\obj\Debug\net9.0\LAB05-AndreBoza.pdb
 C:\Users\andre\RiderProjects\LAB05-AndreBoza\LAB05-AndreBoza\obj\Debug\net9.0\LAB05-AndreBoza.genruntimeconfig.cache
 C:\Users\andre\RiderProjects\LAB05-AndreBoza\LAB05-AndreBoza\obj\Debug\net9.0\ref\LAB05-AndreBoza.dll
+C:\Users\andre\RiderProjects\LAB05-AndreBoza\LAB05-AndreBoza\obj\Debug\net9.0\LAB05-AndreBoza.sourcelink.json
